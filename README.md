@@ -70,5 +70,47 @@ The video sequences in the CURE-TSD dataset are grouped into two classes: real d
 </p>
 
 ### Traffic Signs
+<p align="center">
+<img src="./Images/sign_types.png">
+</p>
 
-### Sign Types
+### File Name Format
+“sequenceType_sequenceNumber_challengeSourceType_challengeType_challengeLevel.txt”
+
+* sequenceType:
+01 – Real data
+02 – Unreal data
+
+* sequenceNumber:
+A number in between [01 – 49]
+
+* challengeSourceType:
+00 – No challenge source (which means no challenge)
+01 – After affect
+
+* challengeType:
+00 – No challenge
+01 – Decolorization
+02 – Lens blur
+03 – Codec error
+04 – Darkening
+05 – Dirty lens
+06 – Exposure
+07 – Gaussian blur
+08 – Noise
+09 – Rain
+10 – Shadow
+11 – Snow
+12 – Haze
+
+* challengeLevel:
+A number in between [01-05] where 01 is the least severe and 05 is the most severe challenge.
+
+### Test Sequences
+We split the video sequences into 70% training set and 30% test set. The sequence numbers corresponding to test set are given below:
+
+[01_04_x_x_x, 01_05_x_x_x, 01_06_x_x_x, 01_07_x_x_x, 01_08_x_x_x, 01_18_x_x_x, 01_19_x_x_x, 01_21_x_x_x, 01_24_x_x_x, 01_26_x_x_x, 01_31_x_x_x, 01_38_x_x_x, 01_39_x_x_x, 01_41_x_x_x, 01_47_x_x_x, 02_02_x_x_x, 02_04_x_x_x, 02_06_x_x_x, 02_09_x_x_x, 02_12_x_x_x, 02_13_x_x_x, 02_16_x_x_x, 02_17_x_x_x, 02_18_x_x_x, 02_20_x_x_x, 02_22_x_x_x, 02_28_x_x_x, 02_31_x_x_x, 02_32_x_x_x, 02_36_x_x_x]
+
+The videos with all other sequence numbers are in the training set.
+Note that “x” above refers to the variations listed earlier.
+
