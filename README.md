@@ -114,3 +114,64 @@ We split the video sequences into 70% training set and 30% test set. The sequenc
 The videos with all other sequence numbers are in the training set.
 Note that “x” above refers to the variations listed earlier.
 
+### Coordinate System
+<p align="center">
+<img src="./Images/coordinate_system.png">
+</p>
+
+### Annotation Format
+“sequenceType_sequenceNumber.txt“.
+
+Challenge source type, challenge type, and challenge level do not affect the annotations. Therefore, the video sequences that start with the same sequence type and the sequence number have the same annotations.
+
+* sequenceType:
+01 – Real data
+02 – Unreal data
+
+* sequenceNumber:
+A number in between [01 – 49]
+
+The format of each line in the annotation file (txt) should be: “frameNumber_signType_llx_lly_lrx_lry_ulx_uly_urx_ury”.
+
+* frameNumber:
+A number in between [001-300]
+
+* signType:
+01 – speed_limit
+02 – goods_vehicles
+03 – no_overtaking
+04 – no_stopping
+05 – no_parking
+06 – stop
+07 – bicycle
+08 – hump
+09 – no_left
+10 – no_right
+11 – priority_to
+12 – no_entry
+13 – yield
+14 – parking
+
+### Challenging Condition Generation
+Adobe (c) After Effects version 14.1.0.57 was utilized to emulate challenging conditions with the following configurations:
+
+* Decolorization: Black & White Color Correction filter version 1:0. The filter settings were: Reds= 40, Yellows= 60, Greens= 40, Cyans= 60, Blues= 20, and Magentas= 80. We utilized multiple adjustment layers to compound the effect of the color correction filter and created multiple distinct levels of this challenge.
+* Lens Blur: Camera Lens Blur filter version 1:0. The filter settings were: Blur radius was set to 2; 4; 6; 8; and 10 for levels 1 – 5 and Iris Shape was Hexagan, everything else was set as default.
+* Codec Error: Time Displacement filter version 1:6. The filter settings were: Max Displacement Time was set to 0:1; 0:2; 0:3; 0:4; and 0:5 for levels 1 – 5, everything else was set as default.
+* Darkening: Exposure filter version 1:0. The filter was set to modify the master channel Exposure parameter to be -1;-3;-5;-7; and -9 for levels 1 – 5, everything else was set as default.
+* Dirty Lens: a set of dusty and smudged lens images superimposed on the video.
+* Exposure: Exposure filter version 1:0. The filter was set to modify the master channel Exposure parameter to be 1, 3, 5, 7, and 9 for levels 1 – 5, everything else was set as default.
+* Gaussian Blur: Gaussian Blur filter version 3:0. The filter settings were: Bluriness was 5; 10; 15; 20; and 25 for levels 1 􀀀 5, everything else was set as default. Unlike Lens Blur,  Gaussian Blur is equally distributed in all directions, which leads to less structured blurred objects.
+* Sensor Noise: Noise filter version 2:6. The filter settings were: Amount of Noise parameter was set to 20; 40; 60; 70; and 71 using 5 adjustment layers that were compounded to generate levels 1 – 5, everything else was set as default.
+* Rain: Rain was implemented using Gradient Ramp generator version 3:2 with colors # 0F1E2D and # 5A7492 to create a blueish hue over the video, and CC Rainfall generator from Cycore Effects HD 1.8.2 version 1:1. The setting of CC Rainfall generator were: Drops was set to 10000; 20000; 50000; and 100000 and Opacity was 25% using 5 adjustment layers that were compounded to generates levels 1 – 5, everything else was set as default.
+* Shadow: Venetian Blinds filter version 2:3. The filter settings were: Transition Completeness was 47%, Direction was 0x + 0:0°, Width was 142, and Opacity was 15%; 30%; 45%; 60%, and 75% for levels 1-5, everything
+else was set as default.
+* Snow: Glow filter version 2:6 with color # FFFFF to create a white hue over the video, and CC Snowfall generator from Cycore Effects HD 1.8.2 version 1:1. The setting of Glow filter were: Glow Threshold was 55%, Glow Intensity was 1:4, Glow Operation was Screen, and Glow Dimension was Horizontal. The setting of CC Snowfall generator were: Drops 10000; 50000; 100000, and 140000 using 9 adjustment layers that were compounded to generates levels 1-5, everything else was set as default.
+* Haze: Ellipse Shape Layer filter version 1:0 with radial gradient fill using color # D6D6D6 in the center with 100% opacity and color # 000000 with 0% opacity on the edges, Smart Blur version 1:0, Exposure version 1:0, and Brightness & contrast version 1:0. The shape and focal point location of the Ellipse was manually controlled to closely follow the furthest point in the video, which created a sense of depth to the scene and emulated the behaviour of haze in realistic settings. The setting of Smart Blur filter were: Radius was 3, and Threshold was 25. The setting of Exposure filter for the master channel were: Radius was -1, and Gamma Correction was 1. The setting of Brightness & Contrast filter were: Brightness was -34, and contrast was -13. Additionally, we utilized Solid Layer, which was created from color # CECECE and opacity 10%; 20%; 30%; 40%, and 50% to add difficulty to levels 1 – 5.
+
+# Related Research Studies
+The following papers used the CURE-TSD dataset in their research studies. If you utilize or refer to CURE-TSD dataset, please  email cantemel@gatech.edu for your publication to be listed here.
+
+<ul>
+<li>U. Kamal, T. I. Tonmoy, S. Das and M. K. Hasan, “Automatic Traffic Sign Detection and Recognition Using SegU-Net and a Modified Tversky Loss Function With L1-Constraint,” in IEEE Transactions on Intelligent Transportation Systems</li>
+</ul>
