@@ -65,4 +65,10 @@ booktitle = {Neural Information Processing Systems (NeurIPS) Workshop on Machine
 The video sequences in the CURE-TSD dataset are grouped into two classes: real data and unreal data. Real data correspond to processed versions of sequences acquired from real world. Unreal data corresponds to synthesized sequences generated in a virtual environment. There are 49 real sequences and 49 unreal sequences that do not include any specific challenge. We separated the sequences into 70% and %30 splits. Therefore, we have 34 training videos and 15 test videos in both real and unreal sequences that are challenge-free. There are 300 frames in each video sequence. There are 49 challenge-free real video sequences processed with 12 different types of effects and 5 different challenge levels, which result in 2,989 (49*12*5+49) video sequences. Moreover, there are 49 synthesized video sequences processed with 11 different types of effects and 5 different challenge levels, which leads to 2,744 (49*11*5+49) video sequences. In total, there are 5,733 video sequences, which include around 1.72 million frames. To receive  the download link, please fill out this <strong><a href="https://docs.google.com/forms/d/e/1FAIpQLScF3TO-2xhMmIc-GibKb8DBnwC6knSqew68zeRWurortg1pKg/viewform">FORM</a></strong> to submit your information and agree the conditions of use. These information will be kept confidential and will not be released to anybody outside the MSL administration team.
 
 ### Challenging Conditions
+<p align="center">
+<img src="./Images/curetsd_challenges.png">
+</p>
 
+### Traffic Signs
+
+### Sign Types
