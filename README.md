@@ -1,35 +1,35 @@
 # CURE-TSD
 CURE-TSD: Challenging Unreal and Real Environments for Traffic Sign Detection
 
- [OLIVES Lab, Georgia Institute of Technology](https://ghassanalregib.com/)
+ [OLIVES Lab, Georgia Institute of Technology](https://ghassanalregib.info/)
 
 
 
 | <a href="http://www.youtube.com/watch?feature=player_embedded&v=8V1LcpDlmjA
-" target="_blank"><img src="http://img.youtube.com/vi/8V1LcpDlmjA/0.jpg" 
-alt="CURE-TSD Real" width="240" height="180" border="10" /></a> 
+" target="_blank"><img src="http://img.youtube.com/vi/8V1LcpDlmjA/0.jpg"
+alt="CURE-TSD Real" width="240" height="180" border="10" /></a>
 |
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=bKnlJ_EWS8Q
-" target="_blank"><img src="http://img.youtube.com/vi/bKnlJ_EWS8Q/0.jpg" 
-alt="CURE-TSD Unreal" width="240" height="180" border="10" /></a> 
+" target="_blank"><img src="http://img.youtube.com/vi/bKnlJ_EWS8Q/0.jpg"
+alt="CURE-TSD Unreal" width="240" height="180" border="10" /></a>
 |
 
-  
+
 
 
 
 ### Publications
 If you use CURE-TSD dataset or codes, please cite:
 
-   
+
  [Challenging Environments for Traffic Sign Detection: Reliability Assessment under Inclement Conditions](https://arxiv.org/abs/1902.06857)
 
 ```
-@INPROCEEDINGS{Temel2019,
-author = {D. Temel and T. Alshawi and M.-H. Chen and G. AlRegib},
-booktitle={arXiv:1902.06857},
-title = {Challenging Environments for Traffic Sign Detection: Reliability Assessment under Inclement Conditions},
-year = {2015},
+@article{temel2019challenging,
+  title={Challenging environments for traffic sign detection: Reliability assessment under inclement conditions},
+  author={Temel, Dogancan and Alshawi, Tariq and Chen, Min-Hung and AlRegib, Ghassan},
+  journal={arXiv preprint arXiv:1902.06857},
+  year={2019}
 }
 ```
 
@@ -50,7 +50,7 @@ doi={10.1109/MSP.2017.2783449},
 ISSN={1053-5888},}
 ```
  [CURE-TSR: Challenging unreal and real environments for traffic sign recognition](https://arxiv.org/abs/1712.02463)
-  
+
 ```
 @INPROCEEDINGS{Temel2017_NIPSW,
 Author = {D. Temel and G. Kwon and M. Prabhushankar and G. AlRegib},
