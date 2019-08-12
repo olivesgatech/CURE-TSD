@@ -21,6 +21,21 @@ alt="CURE-TSD Unreal" width="240" height="180" border="10" /></a>
 ### Publications
 If you use CURE-TSD dataset or codes, please cite:
 
+[Traffic Sign Detection Under Challenging Conditions: A Deeper Look into Performance Variations and Spectral Characteristics
+](https://ieeexplore.ieee.org/document/8793235)
+
+```
+@ARTICLE{temel2019traffic,
+author={D. Temel and M. Chen and G. AlRegib},
+journal={IEEE Transactions on Intelligent Transportation Systems},
+title={Traffic Sign Detection Under Challenging Conditions: A Deeper Look into Performance Variations and Spectral Characteristics},
+year={2019},
+volume={},
+number={},
+pages={1-11},
+doi={10.1109/TITS.2019.2931429},
+ISSN={1524-9050},}
+```
 
  [Challenging Environments for Traffic Sign Detection: Reliability Assessment under Inclement Conditions](https://arxiv.org/abs/1902.06857)
 
