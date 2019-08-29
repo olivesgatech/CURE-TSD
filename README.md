@@ -37,18 +37,7 @@ doi={10.1109/TITS.2019.2931429},
 ISSN={1524-9050},}
 ```
 
- [Challenging Environments for Traffic Sign Detection: Reliability Assessment under Inclement Conditions](https://arxiv.org/abs/1902.06857)
-
-```
-@article{temel2019challenging,
-  title={Challenging environments for traffic sign detection: Reliability assessment under inclement conditions},
-  author={Temel, Dogancan and Alshawi, Tariq and Chen, Min-Hung and AlRegib, Ghassan},
-  journal={arXiv preprint arXiv:1902.06857},
-  year={2019}
-}
-```
-
- [Traffic Signs in the Wild: Highlights from the IEEE Video and Image Processing Cup 2017 Student Competition [SP Competitions]
+[Traffic Signs in the Wild: Highlights from the IEEE Video and Image Processing Cup 2017 Student Competition [SP Competitions]
 ](https://arxiv.org/abs/1810.06169)
 
 ```
@@ -64,6 +53,20 @@ pages={154-161},
 doi={10.1109/MSP.2017.2783449},
 ISSN={1053-5888},}
 ```
+
+
+ [Challenging Environments for Traffic Sign Detection: Reliability Assessment under Inclement Conditions](https://arxiv.org/abs/1902.06857)
+
+```
+@article{temel2019challenging,
+  title={Challenging environments for traffic sign detection: Reliability assessment under inclement conditions},
+  author={Temel, Dogancan and Alshawi, Tariq and Chen, Min-Hung and AlRegib, Ghassan},
+  journal={arXiv preprint arXiv:1902.06857},
+  year={2019}
+}
+```
+
+ 
  [CURE-TSR: Challenging unreal and real environments for traffic sign recognition](https://arxiv.org/abs/1712.02463)
 
 ```
