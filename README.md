@@ -22,7 +22,7 @@ alt="CURE-TSD Unreal" width="240" height="180" border="10" /></a>
 If you use CURE-TSD dataset or codes, please cite:
 
 [Traffic Sign Detection Under Challenging Conditions: A Deeper Look into Performance Variations and Spectral Characteristics
-](https://ieeexplore.ieee.org/document/8793235)
+](https://arxiv.org/abs/1908.11262)
 
 ```
 @ARTICLE{temel2019traffic,
@@ -34,7 +34,8 @@ volume={},
 number={},
 pages={1-11},
 doi={10.1109/TITS.2019.2931429},
-ISSN={1524-9050},}
+ISSN={1524-9050},
+url={https://arxiv.org/abs/1908.11262}}
 ```
 
 [Traffic Signs in the Wild: Highlights from the IEEE Video and Image Processing Cup 2017 Student Competition [SP Competitions]
@@ -51,7 +52,8 @@ volume={35},
 number={2},
 pages={154-161},
 doi={10.1109/MSP.2017.2783449},
-ISSN={1053-5888},}
+ISSN={1053-5888},
+url={https://arxiv.org/abs/1810.06169}}
 ```
 
 
@@ -62,7 +64,8 @@ ISSN={1053-5888},}
   title={Challenging environments for traffic sign detection: Reliability assessment under inclement conditions},
   author={Temel, Dogancan and Alshawi, Tariq and Chen, Min-Hung and AlRegib, Ghassan},
   journal={arXiv preprint arXiv:1902.06857},
-  year={2019}
+  year={2019},
+  url={https://arxiv.org/abs/1902.06857}
 }
 ```
 
