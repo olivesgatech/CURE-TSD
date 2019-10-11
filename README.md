@@ -97,7 +97,7 @@ The video sequences in the CURE-TSD dataset are grouped into two classes: real d
 </p>
 
 ### File Name Format
-“sequenceType_sequenceNumber_challengeSourceType_challengeType_challengeLevel.txt”
+“sequenceType_sequenceNumber_challengeSourceType_challengeType_challengeLevel.mp4”
 
 * sequenceType:
 01 – Real data
