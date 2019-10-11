@@ -19,7 +19,7 @@ alt="CURE-TSD Unreal" width="240" height="180" border="10" /></a>
 
 
 ### Publications
-If you use CURE-TSD dataset or codes, please cite:
+If you use CURE-TSD dataset or codes, please cite the papers listed below:
 
 [Traffic Sign Detection Under Challenging Conditions: A Deeper Look into Performance Variations and Spectral Characteristics
 ](https://arxiv.org/abs/1908.11262)
